@@ -1,8 +1,10 @@
 <h1>my-products list</h1>
-<div>
-    <a routerLink="./add-product">add product</a>
-</div>
-<div>
-    <a routerLink="./product-details">product-details</a>
+<div class="d-flex justify-content-around">
+    <div>
+        <a routerLink="./add-product" class="text-decoration-none">add product</a>
+    </div>
+    <div>
+        <a routerLink="/myproducts/product-details" class="text-decoration-none">product-details</a>
+    </div>
 </div>
 <router-outlet></router-outlet>
