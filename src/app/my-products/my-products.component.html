@@ -1,10 +1,12 @@
 <h1>my-products list</h1>
 <div class="d-flex justify-content-around">
-    <div>
-        <a routerLink="./add-product" class="text-decoration-none">add product</a>
+    <div> 
+        <a routerLink="./add-product" routerLinkActive="active" class="text-decoration-none">add product</a>
+        <!-- ./ we can give like this for one step going up and instead of giving full link we can give like this -->
     </div>
     <div>
-        <a routerLink="/myproducts/product-details" class="text-decoration-none">product-details</a>
+        <a routerLink="/myproducts/product-details" routerLinkActive="active" class="text-decoration-none">product-details</a>
     </div>
+
 </div>
 <router-outlet></router-outlet>
