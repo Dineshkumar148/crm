@@ -1,8 +1,13 @@
 <div>
-  <a routerLink="/dashboar" class="text-decoration-none">dashboard</a>
+  <a routerLink="/dashboard" class="text-decoration-none">dashboard</a>
   <!-- when we click on dashboard it will redirect to login because routing is wrong -->
 </div>
 <div>
   <a routerLink="/myproducts" class="text-decoration-none">my-products</a>
 </div>
+<app-content-projection>
+  <h1 head>content projection head works</h1>
+  <p paragraph>content projection paragraph works</p>
+</app-content-projection>
+
 <router-outlet></router-outlet>
